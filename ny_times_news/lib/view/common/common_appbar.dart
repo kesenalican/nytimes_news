@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ny_times_news/core/constants/app_contants.dart';
+import 'package:ny_times_news/core/constants/app_constants.dart';
 import 'package:ny_times_news/view/styles/colors.dart';
 import 'package:ny_times_news/view/styles/styles.dart';
 

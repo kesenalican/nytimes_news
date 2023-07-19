@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ny_times_news/core/constants/app_contants.dart';
+import 'package:ny_times_news/core/constants/app_constants.dart';
 import 'package:ny_times_news/core/extensions/extension.dart';
 import 'package:ny_times_news/view/common/common_appbar.dart';
 import 'package:ny_times_news/view/screens/news/model/news_model.dart';
