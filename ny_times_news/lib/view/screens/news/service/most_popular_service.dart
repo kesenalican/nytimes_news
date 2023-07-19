@@ -1,4 +1,3 @@
-
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ny_times_news/core/base/service/base_provider.dart';
@@ -17,12 +16,10 @@ final getMostPopularNews = FutureProvider.autoDispose((ref) async {
     ),
   );
   if (result.statusCode == 200) {
-    print(result.data['results']);
     List<dynamic> results = result.data['results'];
     List<Result> myList = results.map((e) => Result.fromJson(e)).toList();
     return myList;
   } else {
-    print('bir hata oluştu');
     return [];
   }
 });
